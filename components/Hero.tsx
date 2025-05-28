@@ -19,7 +19,7 @@ const Hero = () => {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6"
           >
-            Hi, I'm Rahul Chunchu
+            Hi, {`I'm`} Rahul Chunchu
           </motion.h1>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -66,4 +66,4 @@ const Hero = () => {
   );
 };
 
-export default Hero; 
+export default Hero;

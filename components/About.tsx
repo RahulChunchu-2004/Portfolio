@@ -38,25 +38,26 @@ const About = () => {
             languages and modern web technologies.
           </motion.p>
           <motion.p
-            variants={paragraphVariants}
-            transition={{ duration: 0.5 }}
-            className="text-lg text-gray-600 mb-6"
-          >
-            During my academic journey, I've focused on developing practical skills through
-            hands-on projects, particularly in web development and data manipulation. I have
-            experience working with Python for data scraping and handling duplicate data,
-            demonstrating my ability to solve real-world problems through code.
-          </motion.p>
-          <motion.p
-            variants={paragraphVariants}
-            transition={{ duration: 0.5 }}
-            className="text-lg text-gray-600"
-          >
-            I'm constantly learning and staying updated with the latest technologies,
-            always eager to take on new challenges and contribute to meaningful projects.
-            My goal is to create efficient, user-friendly solutions that make a positive
-            impact.
-          </motion.p>
+  variants={paragraphVariants}
+  transition={{ duration: 0.5 }}
+  className="text-lg text-gray-600 mb-6"
+>
+  During my academic journey, {`I've`} focused on developing practical skills through
+  hands-on projects, particularly in web development and data manipulation. I have
+  experience working with Python for data scraping and handling duplicate data,
+  demonstrating my ability to solve real-world problems through code.
+</motion.p>
+<motion.p
+  variants={paragraphVariants}
+  transition={{ duration: 0.5 }}
+  className="text-lg text-gray-600"
+>
+  {`I'm`} constantly learning and staying updated with the latest technologies,
+  always eager to take on new challenges and contribute to meaningful projects.
+  My goal is to create efficient, user-friendly solutions that make a positive
+  impact.
+</motion.p>
+
         </motion.div>
       </div>
     </section>

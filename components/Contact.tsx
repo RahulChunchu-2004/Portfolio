@@ -29,7 +29,7 @@ const Contact = () => {
         </h2>
         <div className="max-w-xl mx-auto">
           <p className="text-center text-gray-600 mb-8">
-            I'm always open to new opportunities and collaborations. 
+            {`I'm`} always open to new opportunities and collaborations. 
             Feel free to connect with me on LinkedIn or check out my projects on GitHub.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6">
